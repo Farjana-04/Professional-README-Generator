@@ -2,65 +2,65 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // Prompt the user for input using inquirer
-// inquirer
-//   .prompt([
-//     {
-//       type: 'input',
-//       name: 'title',
-//       message: 'Enter the project title:',
+inquirer
+  .prompt([
+    {
+      type: 'input',
+      name: 'title',
+      message: 'Enter the project title:',
       
-//     },
-//     {
-//       type: 'input',
-//       name: 'description',
-//       message: 'Enter project description:',
+    },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Enter project description:',
       
-//     },
-//     {
-//       type: 'input',
-//       name:'installation',
-//       message:'What is the installation instructions?',
+    },
+    {
+      type: 'input',
+      name:'installation',
+      message:'What is the installation instructions?',
       
-//     },
-//     {
-//       type: 'input',
-//       name:'usage',
-//       message:'Type the usage information',
+    },
+    {
+      type: 'input',
+      name:'usage',
+      message:'Type the usage information',
       
-//     },
-//     {
-//       type: 'input',
-//       name:'contribute',
-//       message:'Type the contribution guidelines',
-//     },
-//     {
-//       type: 'input',
-//       name:'tests',
-//       message:'Type the test instructions',
-//     },
+    },
+    {
+      type: 'input',
+      name:'contribute',
+      message:'Type the contribution guidelines',
+    },
+    {
+      type: 'input',
+      name:'tests',
+      message:'Type the test instructions',
+    },
     // use list type for license
-//     {
-//       type: 'list',
-//       name:'license',
-//       message:'Which license you use?',
-//       choices:['MIT','GPL','Apache License','N/A'],
+    {
+      type: 'list',
+      name:'license',
+      message:'Which license you use?',
+      choices:['MIT','GPL','Apache License','N/A'],
       
-//     },
-//     {
-//       type: 'input',
-//       name:'username',
-//       message:'What is your github user name?',
+    },
+    {
+      type: 'input',
+      name:'username',
+      message:'What is your github user name?',
       
-//     },
-//     {
-//       type: 'input',
-//       name:'email',
-//       message:'What is your email address?',
+    },
+    {
+      type: 'input',
+      name:'email',
+      message:'What is your email address?',
       
-//     },
+    },
 
     
-//   ])
+  ])
 //   .then((response) =>{
 //     console.log(response)
 //     let template = 

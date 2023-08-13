@@ -115,11 +115,16 @@ fs.writeFile('./output/README.md', template, (err) => {
       // The write operation was successful
 });
   }
-// function getBadge(license){
-// switch(license){
-//   case "MIT":{return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"}
-//   case "Apache License":{return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"}
-//   case "GPL": {return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"}
-//   default: {return "N/A"}
-// }
-// }
+//getBadge function takes a license parameter and returns a badge image URL based on the provided license
+function getBadge(license){
+switch(license){
+  //the switch statement is working for, If the license is "MIT", it returns a badge for the MIT license.
+  case "MIT":{return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"}
+  //If the license is "Apache License", it returns a badge for the Apache License version 2.0.
+  case "Apache License":{return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"}
+  //If the license is "GPL", it returns a badge for the GNU General Public License version 3.
+  case "GPL": {return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"}
+  //If the license doesn't match any of the above cases, it returns the string "N/A".
+  default: {return "N/A"}
+}
+}

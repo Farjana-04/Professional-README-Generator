@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const fs = require('fs');
+const fs = require('fs');  // Import the 'fs' module
 
 // Prompt the user for input using inquirer
 inquirer
@@ -108,12 +108,13 @@ ${response.email}
   //  : console.log("Failed!")
   )
 
-//   function writeToFile(template){
-   
-// fs.writeFile('./output/README.md', template, (err) => {
-//  if (err) throw err;
-// });
-//   }
+  function writeToFile(template){
+//// Write the 'template' content to the './output/README.md' file   
+fs.writeFile('./output/README.md', template, (err) => {  
+ if (err) throw err; // If there's an error, throw it
+      // The write operation was successful
+});
+  }
 // function getBadge(license){
 // switch(license){
 //   case "MIT":{return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"}

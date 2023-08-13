@@ -58,55 +58,55 @@ inquirer
       message:'What is your email address?',
       
     },
+])
+//log the response and creating a template for a README file and using the title property from the response
+  .then((response) =>{
+    console.log(response)
+    let template = 
 
+`# ${response.title}
+
+## Description
+${response.description}
     
-  ])
-//   .then((response) =>{
-//     console.log(response)
-//     let template = 
-// `# ${response.title}
-
-// ## Description
-// ${response.description}
+## Table of Contents
     
-// ## Table of Contents
-    
-// - [Installation](#installation)
-// - [Usage](#usage)
-// - [License](#license)
-// - [Contribute](#contribute)
-// - [Tests](#tests)
-// - [Username](#username)
-// - [Email](#email)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Username](#username)
+- [Email](#email)
 
-// ## Installation
-// ${response.installation}
+## Installation
+${response.installation}
 
-// ## Usage
-// ${response.usage}
+## Usage
+${response.usage}
 
 
-// ## License
-// ${getBadge(response.license)}
+## License
+${getBadge(response.license)}
 
-// ## Contribute
-// ${response.contribute}
+## Contribute
+${response.contribute}
 
-// ## Tests
-// ${response.tests}
+## Tests
+${response.tests}
 
-// ## Username
-// ${response.username}
+## Username
+${response.username}
 
-// ## Email
-// ${response.email}
-// `
-//     writeToFile(template);
-//   }
+## Email
+${response.email}
+`
+    writeToFile(template);
+  }
   //  response.title === response.description
   //  ? console.log("Success!")
   //  : console.log("Failed!")
-//   )
+  )
 
 //   function writeToFile(template){
    

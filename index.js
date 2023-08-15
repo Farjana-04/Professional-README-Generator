@@ -108,11 +108,11 @@ ${response.email}
   //  : console.log("Failed!")
   )
 
-  function writeToFile(template){
-//// Write the 'template' content to the './output/README.md' file   
+function writeToFile(template){
+// Write the 'template' content to the './output/README.md' file   
 fs.writeFile('./output/README.md', template, (err) => {  
  if (err) throw err; // If there's an error, throw it
-      // The write operation was successful
+      
 });
   }
 //getBadge function takes a license parameter and returns a badge image URL based on the provided license

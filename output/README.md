@@ -1,7 +1,7 @@
-# pa
+# README Generator
 
 ## Description
-yes
+Create readme file
     
 ## Table of Contents
     
@@ -14,23 +14,23 @@ yes
 - [Email](#email)
 
 ## Installation
-no
+npm inquirer
 
 ## Usage
-any
+npm and node
 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribute
-one
+any
 
 ## Tests
-yes
+testing
 
 ## Username
-fa
+Farjana-4
 
 ## Email
-far
+farjana@gmail.com

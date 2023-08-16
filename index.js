@@ -102,12 +102,9 @@ ${response.username}
 ${response.email}
 `
     writeToFile(template);
-  }
-  //  response.title === response.description
-  //  ? console.log("Success!")
-  //  : console.log("Failed!")
-  )
-
+    }
+  ) 
+  
 function writeToFile(template){
 // Write the 'template' content to the './output/README.md' file   
 fs.writeFile('./output/README.md', template, (err) => {  

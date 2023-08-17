@@ -15,7 +15,7 @@ When creating an open source project on GitHub, it’s important to have a high-
 Follow the examples on my repo.
 
 ## License
-License: MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribute
 No contributes

@@ -1,7 +1,7 @@
-# test
+# Professional README Generator
 
 ## Description
-test
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.                
     
 ## Table of Contents
     
@@ -14,23 +14,23 @@ test
 - [Email](#email)
 
 ## Installation
-npm
+npm install
 
 ## Usage
-npm
+Follow the examples on my repo.
 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribute
-na
+No contributes
 
 ## Tests
-users
+Testing is not included
 
 ## Username
-farjana-4
+Farjana-04
 
 ## Email
 farjana.akhter085@gmail.com
